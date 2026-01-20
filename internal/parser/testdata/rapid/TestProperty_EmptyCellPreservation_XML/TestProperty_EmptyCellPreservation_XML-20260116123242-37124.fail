@@ -1,0 +1,35 @@
+# 2026/01/16 12:32:42.382581 [TestProperty_EmptyCellPreservation/XML] [rapid] draw numCols: 2
+# 2026/01/16 12:32:42.382584 [TestProperty_EmptyCellPreservation/XML] [rapid] draw header: "B"
+# 2026/01/16 12:32:42.382585 [TestProperty_EmptyCellPreservation/XML] [rapid] draw header: "A"
+# 2026/01/16 12:32:42.382586 [TestProperty_EmptyCellPreservation/XML] [rapid] draw numRows: 1
+# 2026/01/16 12:32:42.382586 [TestProperty_EmptyCellPreservation/XML] [rapid] draw emptyChance: 0
+# 2026/01/16 12:32:42.382587 [TestProperty_EmptyCellPreservation/XML] [rapid] draw emptyChance: 3
+# 2026/01/16 12:32:42.382588 [TestProperty_EmptyCellPreservation/XML] [rapid] draw value: "0"
+# 2026/01/16 12:32:42.382592 [TestProperty_EmptyCellPreservation/XML] row 0, col 0: empty cell not preserved, got "0"
+# 
+v0.4.8#6895323726391937125
+0x0
+0x0
+0x1
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x38e38e38e38e4
+0x3
+0x0
+0x0
+0x0
+0x0
+0x0

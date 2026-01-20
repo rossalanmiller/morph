@@ -1,0 +1,44 @@
+# 2026/01/16 12:32:22.006496 [TestProperty_EmptyCellPreservation/YAML] [rapid] draw numCols: 3
+# 2026/01/16 12:32:22.006503 [TestProperty_EmptyCellPreservation/YAML] [rapid] draw header: "A"
+# 2026/01/16 12:32:22.006504 [TestProperty_EmptyCellPreservation/YAML] [rapid] draw header: "C"
+# 2026/01/16 12:32:22.006505 [TestProperty_EmptyCellPreservation/YAML] [rapid] draw header: "B"
+# 2026/01/16 12:32:22.006505 [TestProperty_EmptyCellPreservation/YAML] [rapid] draw numRows: 1
+# 2026/01/16 12:32:22.006506 [TestProperty_EmptyCellPreservation/YAML] [rapid] draw emptyChance: 0
+# 2026/01/16 12:32:22.006507 [TestProperty_EmptyCellPreservation/YAML] [rapid] draw emptyChance: 0
+# 2026/01/16 12:32:22.006507 [TestProperty_EmptyCellPreservation/YAML] [rapid] draw emptyChance: 3
+# 2026/01/16 12:32:22.006508 [TestProperty_EmptyCellPreservation/YAML] [rapid] draw value: "0"
+# 2026/01/16 12:32:22.006528 [TestProperty_EmptyCellPreservation/YAML] row 0, col 1: empty cell not preserved, got "0"
+# 
+v0.4.8#13465949087924765169
+0x0
+0x38e38e38e38e4
+0x2
+0x0
+0x0
+0x0
+0x0
+0x0
+0x38e38e38e38e4
+0x2
+0x0
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x38e38e38e38e4
+0x3
+0x0
+0x0
+0x0
+0x0
+0x0

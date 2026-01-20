@@ -1,0 +1,93 @@
+# 2026/01/15 21:41:51.581107 [TestProperty_YAMLRoundTrip] [rapid] draw numCols: 7
+# 2026/01/15 21:41:51.581112 [TestProperty_YAMLRoundTrip] [rapid] draw header: "A"
+# 2026/01/15 21:41:51.581113 [TestProperty_YAMLRoundTrip] [rapid] draw header: "B"
+# 2026/01/15 21:41:51.581114 [TestProperty_YAMLRoundTrip] [rapid] draw header: "C"
+# 2026/01/15 21:41:51.581115 [TestProperty_YAMLRoundTrip] [rapid] draw header: "D"
+# 2026/01/15 21:41:51.581116 [TestProperty_YAMLRoundTrip] [rapid] draw header: "E"
+# 2026/01/15 21:41:51.581117 [TestProperty_YAMLRoundTrip] [rapid] draw header: "F"
+# 2026/01/15 21:41:51.581118 [TestProperty_YAMLRoundTrip] [rapid] draw header: "G"
+# 2026/01/15 21:41:51.581118 [TestProperty_YAMLRoundTrip] [rapid] draw numRows: 1
+# 2026/01/15 21:41:51.581119 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:41:51.581119 [TestProperty_YAMLRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:41:51.581120 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:41:51.581120 [TestProperty_YAMLRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:41:51.581121 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:41:51.581121 [TestProperty_YAMLRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:41:51.581121 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:41:51.581122 [TestProperty_YAMLRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:41:51.581122 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:41:51.581124 [TestProperty_YAMLRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:41:51.581124 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 3
+# 2026/01/15 21:41:51.581125 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:41:51.581125 [TestProperty_YAMLRoundTrip] [rapid] draw stringValue: "\n"
+# 2026/01/15 21:41:51.581167 [TestProperty_YAMLRoundTrip] row 0, col "G" value mismatch:
+# expected type=0, raw="\n", parsed=
+# 
+# got type=0, raw="", parsed=
+# 
+v0.4.8#14919275737675821729
+0x0
+0x6b74f03291620
+0x6
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x1
+0x0
+0x0
+0x38e38e38e38e4
+0x2
+0x0
+0x0
+0x38e38e38e38e4
+0x3
+0x0
+0x0
+0x6b74f03291620
+0x4
+0x0
+0x0
+0x6b74f03291620
+0x5
+0x0
+0x0
+0x6b74f03291620
+0x6
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x38e38e38e38e4
+0x3
+0x0
+0x0
+0x0
+0x5555555555555
+0x0
+0xc05c654ab866b
+0x17
+0x0

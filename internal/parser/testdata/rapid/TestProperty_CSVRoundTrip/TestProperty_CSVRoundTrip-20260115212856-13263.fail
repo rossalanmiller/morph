@@ -1,0 +1,35 @@
+# 2026/01/15 21:28:56.677032 [TestProperty_CSVRoundTrip] [rapid] draw numCols: 1
+# 2026/01/15 21:28:56.677039 [TestProperty_CSVRoundTrip] [rapid] draw header: "0"
+# 2026/01/15 21:28:56.677040 [TestProperty_CSVRoundTrip] [rapid] draw numRows: 2
+# 2026/01/15 21:28:56.677041 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 1
+# 2026/01/15 21:28:56.677042 [TestProperty_CSVRoundTrip] [rapid] draw numberValue: 1
+# 2026/01/15 21:28:56.677045 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:28:56.677046 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:28:56.677051 [TestProperty_CSVRoundTrip] row 0, col 0 value mismatch: expected "1", got ""
+# 
+v0.4.8#7633998406835779316
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x38e38e38e38e4
+0x2
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0

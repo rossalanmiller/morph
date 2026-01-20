@@ -1,93 +1,267 @@
-# morph
+# Morph - Table Format Converter
 
+A command-line utility that converts structured tabular data between multiple formats including CSV, Excel, YAML, JSON, HTML tables, XML, Markdown tables, and ASCII tables.
 
+## Features
 
-## Getting started
+- Convert between 8 different table formats
+- Automatic format detection from file extensions
+- Support for stdin/stdout piping
+- Preserves data types (numbers, booleans, nulls) where supported
+- Handles special characters and escaping correctly
+- Single binary with no runtime dependencies
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Supported Formats
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://oxford.awsdev.infor.com/ross.miller/morph.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://oxford.awsdev.infor.com/ross.miller/morph/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+| Format   | Extensions      | Description                          |
+|----------|-----------------|--------------------------------------|
+| CSV      | `.csv`          | Comma-separated values (RFC 4180)    |
+| Excel    | `.xlsx`, `.xls` | Microsoft Excel spreadsheet          |
+| JSON     | `.json`         | Array of objects                     |
+| YAML     | `.yaml`, `.yml` | List of dictionaries                 |
+| HTML     | `.html`, `.htm` | HTML table element                   |
+| XML      | `.xml`          | Dataset/record structure             |
+| Markdown | `.md`           | GitHub-flavored markdown table       |
+| ASCII    | `.txt`          | Box-drawing ASCII table              |
 
 ## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+
+### From Source
+
+```bash
+# Clone the repository
+git clone https://github.com/user/morph.git
+cd morph
+
+# Build the binary
+go build -o morph ./cmd/morph
+
+# Optional: Install to your PATH
+go install ./cmd/morph
+```
+
+### Build Requirements
+
+- Go 1.21 or later
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+### Basic Syntax
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+```bash
+morph [OPTIONS] [INPUT_FILE] [OUTPUT_FILE]
+```
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+### Options
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+| Flag           | Description                                      |
+|----------------|--------------------------------------------------|
+| `-in <format>` | Input format (csv, excel, yaml, json, html, xml, markdown, ascii) |
+| `-out <format>`| Output format (csv, excel, yaml, json, html, xml, markdown, ascii) |
+| `-h`, `--help` | Show help message                                |
+| `-v`, `--version` | Show version                                  |
+| `--sheet <name>` | Excel sheet name (default: first sheet)       |
+| `--no-header`  | Treat first row as data, not headers             |
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+### Format Aliases
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+For convenience, you can use shorthand aliases for formats:
+
+| Format   | Aliases              |
+|----------|----------------------|
+| excel    | `xlsx`, `xls`, `xl`  |
+| yaml     | `yml`                |
+| json     | `js`                 |
+| html     | `htm`                |
+| markdown | `md`                 |
+| ascii    | `txt`, `table`       |
+
+### Examples
+
+#### File to File Conversion
+
+```bash
+# Convert CSV to JSON (formats auto-detected from extensions)
+morph data.csv output.json
+
+# Convert Excel to YAML
+morph spreadsheet.xlsx output.yaml
+
+# Convert JSON to Markdown table
+morph data.json table.md
+```
+
+#### Explicit Format Specification
+
+```bash
+# Specify formats explicitly
+morph -in csv -out json data.csv output.json
+
+# Useful when extensions don't match the format
+morph -in json -out yaml data.txt output.txt
+```
+
+#### Using stdin/stdout
+
+```bash
+# Pipe JSON to CSV
+echo '[{"name":"Alice","age":30}]' | morph -in json -out csv
+
+# Read from stdin, write to file
+cat data.json | morph -in json output.csv
+
+# Read from file, write to stdout
+morph -out yaml data.csv
+
+# Full pipeline
+curl -s https://api.example.com/data | morph -in json -out csv > data.csv
+```
+
+#### Working with Excel
+
+```bash
+# Convert Excel to CSV
+morph report.xlsx report.csv
+
+# Specify a sheet name
+morph --sheet "Sales Data" report.xlsx sales.csv
+```
+
+### Format Examples
+
+#### CSV
+```csv
+name,age,active
+Alice,30,true
+Bob,25,false
+```
+
+#### JSON
+```json
+[
+  {"name": "Alice", "age": 30, "active": true},
+  {"name": "Bob", "age": 25, "active": false}
+]
+```
+
+#### YAML
+```yaml
+- name: Alice
+  age: 30
+  active: true
+- name: Bob
+  age: 25
+  active: false
+```
+
+#### HTML
+```html
+<table>
+  <thead>
+    <tr><th>name</th><th>age</th><th>active</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Alice</td><td>30</td><td>true</td></tr>
+    <tr><td>Bob</td><td>25</td><td>false</td></tr>
+  </tbody>
+</table>
+```
+
+#### XML
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <record><name>Alice</name><age>30</age><active>true</active></record>
+  <record><name>Bob</name><age>25</age><active>false</active></record>
+</dataset>
+```
+
+#### Markdown
+```markdown
+| name  | age | active |
+|-------|-----|--------|
+| Alice | 30  | true   |
+| Bob   | 25  | false  |
+```
+
+#### ASCII
+```
++-------+-----+--------+
+| name  | age | active |
++-------+-----+--------+
+| Alice | 30  | true   |
+| Bob   | 25  | false  |
++-------+-----+--------+
+```
+
+## Error Handling
+
+Morph provides clear error messages for common issues:
+
+```bash
+# File not found
+$ morph nonexistent.csv output.json
+Error: Failed to read file: nonexistent.csv
+  Reason: no such file or directory
+
+# Unsupported format
+$ morph -in txt data.txt output.json
+Error: Unsupported format 'txt'
+  Supported formats: csv, excel, yaml, json, html, xml, markdown, ascii
+
+# Parse error
+$ morph malformed.json output.csv
+Error: Failed to parse JSON input
+  Line 3: unexpected end of JSON input
+```
+
+## Known Limitations
+
+- **Duplicate Column Names**: When converting from formats that allow duplicate column names (CSV, Excel, HTML) to map-based formats (JSON, YAML), only the last value for each duplicate column name is preserved.
+- **Excel**: Only the first sheet is processed by default. Use `--sheet` to specify a different sheet.
+- **Large Files**: Files over 100MB may take longer to process. Consider using streaming-friendly formats like CSV for very large datasets.
+
+## Development
+
+### Running Tests
+
+```bash
+# Run all tests
+go test ./...
+
+# Run with verbose output
+go test -v ./...
+
+# Run specific package tests
+go test ./internal/parser/...
+
+# Run property-based tests only
+go test ./... -run "Property"
+```
+
+### Project Structure
+
+```
+morph/
+├── cmd/
+│   └── morph/           # CLI entry point
+├── internal/
+│   ├── cli/             # CLI argument parsing and I/O
+│   ├── model/           # TableData internal representation
+│   ├── parser/          # Format-specific parsers
+│   ├── serializer/      # Format-specific serializers
+│   └── registry/        # Format registry
+├── go.mod
+└── README.md
+```
+
+### Adding a New Format
+
+1. Implement the `Parser` interface in `internal/parser/`
+2. Implement the `Serializer` interface in `internal/serializer/`
+3. Register the format in `internal/registry/registry.go`
+4. Add file extension mapping in `internal/cli/format.go`
 
 ## License
-For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+MIT License - see LICENSE file for details.

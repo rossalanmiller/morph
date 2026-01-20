@@ -1,0 +1,35 @@
+# 2026/01/16 12:32:42.299090 [TestProperty_EmptyCellPreservation/JSON] [rapid] draw numCols: 2
+# 2026/01/16 12:32:42.299103 [TestProperty_EmptyCellPreservation/JSON] [rapid] draw header: "B"
+# 2026/01/16 12:32:42.299106 [TestProperty_EmptyCellPreservation/JSON] [rapid] draw header: "A"
+# 2026/01/16 12:32:42.299107 [TestProperty_EmptyCellPreservation/JSON] [rapid] draw numRows: 1
+# 2026/01/16 12:32:42.299107 [TestProperty_EmptyCellPreservation/JSON] [rapid] draw emptyChance: 0
+# 2026/01/16 12:32:42.299109 [TestProperty_EmptyCellPreservation/JSON] [rapid] draw emptyChance: 9
+# 2026/01/16 12:32:42.299110 [TestProperty_EmptyCellPreservation/JSON] [rapid] draw value: "0"
+# 2026/01/16 12:32:42.299137 [TestProperty_EmptyCellPreservation/JSON] row 0, col 0: empty cell not preserved, got "0"
+# 
+v0.4.8#10083762382098517566
+0x0
+0x0
+0x1
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x1f2b5a0e61c3a6
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0

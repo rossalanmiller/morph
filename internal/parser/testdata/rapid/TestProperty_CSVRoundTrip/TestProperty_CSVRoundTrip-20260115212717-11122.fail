@@ -1,0 +1,1318 @@
+# 2026/01/15 21:27:17.003184 [TestProperty_CSVRoundTrip] [rapid] draw numCols: 6
+# 2026/01/15 21:27:17.003192 [TestProperty_CSVRoundTrip] [rapid] draw header: "0"
+# 2026/01/15 21:27:17.003194 [TestProperty_CSVRoundTrip] [rapid] draw header: "0"
+# 2026/01/15 21:27:17.003196 [TestProperty_CSVRoundTrip] [rapid] draw header: "0"
+# 2026/01/15 21:27:17.003197 [TestProperty_CSVRoundTrip] [rapid] draw header: "0"
+# 2026/01/15 21:27:17.003199 [TestProperty_CSVRoundTrip] [rapid] draw header: "0"
+# 2026/01/15 21:27:17.003199 [TestProperty_CSVRoundTrip] [rapid] draw header: "0"
+# 2026/01/15 21:27:17.003200 [TestProperty_CSVRoundTrip] [rapid] draw numRows: 35
+# 2026/01/15 21:27:17.003201 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003203 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003203 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003204 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003204 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003205 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003206 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003207 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003208 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003209 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003209 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003210 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003211 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003211 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003212 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003212 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003212 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003213 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003213 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003213 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003214 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003214 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003215 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003215 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003215 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003217 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003217 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003218 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003218 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003218 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003219 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003219 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003220 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003220 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003220 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003221 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003221 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003222 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003222 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003222 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003223 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003223 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003224 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003224 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003224 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003225 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003225 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003225 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003226 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003226 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003227 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003227 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003227 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003228 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003228 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003228 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003229 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003229 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003231 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003231 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003232 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003232 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003232 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003233 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003233 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003234 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003235 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003235 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003236 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003236 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003236 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003237 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003237 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003237 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003238 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003238 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003239 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003239 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003239 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003240 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003240 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003241 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003241 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003242 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003242 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003242 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003243 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003243 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003243 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003244 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003244 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003245 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003245 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003245 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003246 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003246 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003246 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003247 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003247 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003248 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003249 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003249 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003249 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003250 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003250 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003250 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003251 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003251 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003252 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003252 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003252 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003253 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003254 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003254 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003255 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003255 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003255 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003256 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003256 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003257 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003257 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003258 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003258 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003258 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003259 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003262 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003262 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003263 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003263 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003264 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003264 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003264 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003265 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003265 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003265 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003266 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003266 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003267 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003267 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003267 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003268 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003268 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003268 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003269 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003269 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003270 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003270 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003270 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003271 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003271 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003272 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003272 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003272 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003273 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003273 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003273 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003274 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003274 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003275 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003275 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003275 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003276 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003276 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003276 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003277 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003277 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003278 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003278 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003278 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003279 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003279 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003279 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003280 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003280 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003281 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003281 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003281 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003282 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003282 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003282 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003283 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003283 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003284 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003284 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003284 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003285 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003285 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003285 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003286 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003286 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003287 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003287 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003287 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003288 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003288 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003289 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003289 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003289 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003290 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003290 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003291 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003291 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003291 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003292 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003292 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003293 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003293 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003294 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003294 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003295 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003295 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003295 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003296 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003296 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003296 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003297 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003297 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003298 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003298 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003298 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003299 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003299 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003300 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003300 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003300 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003301 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003301 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003301 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003302 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003302 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003303 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003303 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003303 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003304 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003305 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003305 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003305 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003306 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003306 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003306 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003307 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003307 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003308 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003308 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003308 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003309 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003309 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003309 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003310 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003310 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003311 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003311 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003311 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003312 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003312 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003313 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003313 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003315 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003316 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003316 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003317 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003317 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003317 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003318 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003318 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003318 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003319 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003320 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003320 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003320 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003321 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003321 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003321 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003322 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003322 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003323 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003323 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003323 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003324 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003324 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003325 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003325 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003326 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003326 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003326 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003327 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003327 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003328 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003328 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003328 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003329 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003329 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003330 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003330 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003330 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003331 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003331 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003332 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003332 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003332 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003333 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003333 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003334 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003334 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003335 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003335 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003335 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003336 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003336 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003337 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003337 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003337 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003338 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003338 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003339 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003339 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003339 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003340 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003341 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003342 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003342 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003343 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003343 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003344 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003344 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003345 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003345 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003346 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003346 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003346 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003347 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003347 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003348 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003348 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003348 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003349 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003349 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003350 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003350 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003350 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003351 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003351 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003352 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003352 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003352 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003353 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003353 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003354 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003354 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003354 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003355 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003355 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003356 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003356 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003356 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003357 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003357 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003358 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003358 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003358 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003359 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003359 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003360 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003360 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003360 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003361 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003361 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003361 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003362 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003362 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003363 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003363 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003363 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003364 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003364 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003364 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003365 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003365 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003366 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003366 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003366 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003367 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003367 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003367 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003368 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003368 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003369 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003369 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003369 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003370 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003370 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003370 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003371 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003371 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003372 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003372 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003372 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003373 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003373 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003374 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003374 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003375 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003375 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003376 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003376 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003376 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003386 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003387 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003387 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003388 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003388 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003389 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003389 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003389 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003390 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003390 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:27:17.003390 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 1
+# 2026/01/15 21:27:17.003392 [TestProperty_CSVRoundTrip] [rapid] draw numberValue: 1
+# 2026/01/15 21:27:17.003393 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:27:17.003394 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: "\n"
+# 2026/01/15 21:27:17.003431 [TestProperty_CSVRoundTrip] failed to parse CSV back to TableData: parse error: failed to parse CSV line (line 36)
+#   Caused by: parse error on line 1, column 8: extraneous or missing " in quoted-field
+# 
+v0.4.8#4767109721299547528
+0x0
+0x6b74f03291620
+0x5
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0xe3e05a098777c
+0x23
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x5555555555555
+0x0
+0xc05c654ab866b
+0x17
+0x0

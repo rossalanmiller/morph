@@ -1,0 +1,37 @@
+# 2026/01/16 11:58:21.640843 [TestProperty_ExcelRoundTrip] [rapid] draw numCols: 2
+# 2026/01/16 11:58:21.640846 [TestProperty_ExcelRoundTrip] [rapid] draw header: "A"
+# 2026/01/16 11:58:21.640848 [TestProperty_ExcelRoundTrip] [rapid] draw header: "B"
+# 2026/01/16 11:58:21.640848 [TestProperty_ExcelRoundTrip] [rapid] draw numRows: 1
+# 2026/01/16 11:58:21.640849 [TestProperty_ExcelRoundTrip] [rapid] draw nonNullCol: 0
+# 2026/01/16 11:58:21.640849 [TestProperty_ExcelRoundTrip] [rapid] draw nonNullValueType: 2
+# 2026/01/16 11:58:21.640850 [TestProperty_ExcelRoundTrip] [rapid] draw boolValue: false
+# 2026/01/16 11:58:21.640850 [TestProperty_ExcelRoundTrip] [rapid] draw valueType: 0
+# 2026/01/16 11:58:21.640851 [TestProperty_ExcelRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/16 11:58:21.642277 [TestProperty_ExcelRoundTrip] header count mismatch: expected 2, got 1
+# 
+v0.4.8#12860153320888591363
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x38e38e38e38e4
+0x2
+0x0
+0x0
+0x0
+0x0
+0x0

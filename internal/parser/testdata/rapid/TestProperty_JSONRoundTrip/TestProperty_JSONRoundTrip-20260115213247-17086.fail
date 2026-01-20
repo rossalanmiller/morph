@@ -1,0 +1,16 @@
+# 2026/01/15 21:32:47.176877 [TestProperty_JSONRoundTrip] [rapid] draw numCols: 1
+# 2026/01/15 21:32:47.176881 [TestProperty_JSONRoundTrip] [rapid] draw header: "A"
+# 2026/01/15 21:32:47.176883 [TestProperty_JSONRoundTrip] [rapid] draw numRows: 0
+# 2026/01/15 21:32:47.176885 [TestProperty_JSONRoundTrip] header count mismatch: expected 1, got 0
+# 
+v0.4.8#1628190228043251864
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0

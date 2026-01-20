@@ -1,0 +1,154 @@
+# 2026/01/15 21:43:59.492488 [TestProperty_YAMLRoundTrip] [rapid] draw numCols: 10
+# 2026/01/15 21:43:59.492504 [TestProperty_YAMLRoundTrip] [rapid] draw header: "A"
+# 2026/01/15 21:43:59.492508 [TestProperty_YAMLRoundTrip] [rapid] draw header: "A0"
+# 2026/01/15 21:43:59.492509 [TestProperty_YAMLRoundTrip] [rapid] draw header: "B"
+# 2026/01/15 21:43:59.492510 [TestProperty_YAMLRoundTrip] [rapid] draw header: "C"
+# 2026/01/15 21:43:59.492511 [TestProperty_YAMLRoundTrip] [rapid] draw header: "D"
+# 2026/01/15 21:43:59.492512 [TestProperty_YAMLRoundTrip] [rapid] draw header: "E"
+# 2026/01/15 21:43:59.492512 [TestProperty_YAMLRoundTrip] [rapid] draw header: "F"
+# 2026/01/15 21:43:59.492513 [TestProperty_YAMLRoundTrip] [rapid] draw header: "G"
+# 2026/01/15 21:43:59.492513 [TestProperty_YAMLRoundTrip] [rapid] draw header: "H"
+# 2026/01/15 21:43:59.492520 [TestProperty_YAMLRoundTrip] [rapid] draw header: "z"
+# 2026/01/15 21:43:59.492520 [TestProperty_YAMLRoundTrip] [rapid] draw numRows: 1
+# 2026/01/15 21:43:59.492521 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:43:59.492521 [TestProperty_YAMLRoundTrip] [rapid] draw stringType: 0
+# 2026/01/15 21:43:59.492522 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:43:59.492522 [TestProperty_YAMLRoundTrip] [rapid] draw stringType: 0
+# 2026/01/15 21:43:59.492522 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:43:59.492523 [TestProperty_YAMLRoundTrip] [rapid] draw stringType: 0
+# 2026/01/15 21:43:59.492523 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:43:59.492524 [TestProperty_YAMLRoundTrip] [rapid] draw stringType: 0
+# 2026/01/15 21:43:59.492524 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:43:59.492524 [TestProperty_YAMLRoundTrip] [rapid] draw stringType: 0
+# 2026/01/15 21:43:59.492525 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:43:59.492525 [TestProperty_YAMLRoundTrip] [rapid] draw stringType: 0
+# 2026/01/15 21:43:59.492526 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:43:59.492526 [TestProperty_YAMLRoundTrip] [rapid] draw stringType: 0
+# 2026/01/15 21:43:59.492526 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:43:59.492527 [TestProperty_YAMLRoundTrip] [rapid] draw stringType: 0
+# 2026/01/15 21:43:59.492527 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:43:59.492527 [TestProperty_YAMLRoundTrip] [rapid] draw stringType: 0
+# 2026/01/15 21:43:59.492528 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:43:59.492528 [TestProperty_YAMLRoundTrip] [rapid] draw stringType: 2
+# 2026/01/15 21:43:59.492529 [TestProperty_YAMLRoundTrip] [rapid] draw baseString: "\n"
+# 2026/01/15 21:43:59.492591 [TestProperty_YAMLRoundTrip] row 0, col "z" value mismatch:
+# expected type=0, raw="\nx", parsed=
+# x
+# got type=0, raw="x", parsed=x
+# 
+v0.4.8#17981315610937448496
+0x0
+0x9867f1f40f739
+0x9
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x5555555555555
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x1
+0x0
+0x0
+0x38e38e38e38e4
+0x2
+0x0
+0x0
+0x38e38e38e38e4
+0x3
+0x0
+0x0
+0x6b74f03291620
+0x4
+0x0
+0x0
+0x6b74f03291620
+0x5
+0x0
+0x0
+0x6b74f03291620
+0x6
+0x0
+0x0
+0x6b74f03291620
+0x7
+0x0
+0x0
+0x1f2b5a0e61c3a6
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x38e38e38e38e4
+0x2
+0x5555555555555
+0x0
+0xc05c654ab866b
+0x17
+0x0

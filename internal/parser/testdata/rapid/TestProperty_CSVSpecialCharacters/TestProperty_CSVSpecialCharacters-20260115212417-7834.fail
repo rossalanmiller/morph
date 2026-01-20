@@ -1,0 +1,31 @@
+# 2026/01/15 21:24:17.217600 [TestProperty_CSVSpecialCharacters] [rapid] draw numCols: 1
+# 2026/01/15 21:24:17.217605 [TestProperty_CSVSpecialCharacters] [rapid] draw header: "0"
+# 2026/01/15 21:24:17.217606 [TestProperty_CSVSpecialCharacters] [rapid] draw numRows: 1
+# 2026/01/15 21:24:17.217607 [TestProperty_CSVSpecialCharacters] [rapid] draw charType: 4
+# 2026/01/15 21:24:17.217608 [TestProperty_CSVSpecialCharacters] [rapid] draw baseString: ""
+# 2026/01/15 21:24:17.217609 [TestProperty_CSVSpecialCharacters] [rapid] draw combo: "\r"
+# 2026/01/15 21:24:17.217613 [TestProperty_CSVSpecialCharacters] row 0, col 0: special character not preserved
+# expected: ",\"\r\n"
+# got: ",\"\n"
+# 
+v0.4.8#4672304056114408993
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x6b74f03291620
+0x4
+0x0
+0x5555555555555
+0x0
+0xc05c654ab866b
+0x16
+0x0

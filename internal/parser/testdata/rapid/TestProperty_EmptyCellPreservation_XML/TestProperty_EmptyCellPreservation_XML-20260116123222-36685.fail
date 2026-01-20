@@ -1,0 +1,62 @@
+# 2026/01/16 12:32:22.034983 [TestProperty_EmptyCellPreservation/XML] [rapid] draw numCols: 5
+# 2026/01/16 12:32:22.034987 [TestProperty_EmptyCellPreservation/XML] [rapid] draw header: "A"
+# 2026/01/16 12:32:22.034988 [TestProperty_EmptyCellPreservation/XML] [rapid] draw header: "A"
+# 2026/01/16 12:32:22.034989 [TestProperty_EmptyCellPreservation/XML] [rapid] draw header: "A"
+# 2026/01/16 12:32:22.034990 [TestProperty_EmptyCellPreservation/XML] [rapid] draw header: "A"
+# 2026/01/16 12:32:22.034990 [TestProperty_EmptyCellPreservation/XML] [rapid] draw header: "A"
+# 2026/01/16 12:32:22.034991 [TestProperty_EmptyCellPreservation/XML] [rapid] draw numRows: 1
+# 2026/01/16 12:32:22.034991 [TestProperty_EmptyCellPreservation/XML] [rapid] draw emptyChance: 0
+# 2026/01/16 12:32:22.034992 [TestProperty_EmptyCellPreservation/XML] [rapid] draw emptyChance: 0
+# 2026/01/16 12:32:22.034993 [TestProperty_EmptyCellPreservation/XML] [rapid] draw emptyChance: 0
+# 2026/01/16 12:32:22.034993 [TestProperty_EmptyCellPreservation/XML] [rapid] draw emptyChance: 0
+# 2026/01/16 12:32:22.034993 [TestProperty_EmptyCellPreservation/XML] [rapid] draw emptyChance: 9
+# 2026/01/16 12:32:22.034994 [TestProperty_EmptyCellPreservation/XML] [rapid] draw value: "0"
+# 2026/01/16 12:32:22.035004 [TestProperty_EmptyCellPreservation/XML] row 0, col 0: empty cell not preserved, got "0"
+# 
+v0.4.8#17802115315720790068
+0x0
+0x6b74f03291620
+0x4
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x1f2b5a0e61c3a6
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0

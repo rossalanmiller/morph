@@ -1,0 +1,23 @@
+# 2026/01/15 21:23:31.223406 [TestProperty_CSVRoundTrip] [rapid] draw numCols: 1
+# 2026/01/15 21:23:31.223417 [TestProperty_CSVRoundTrip] [rapid] draw header: "0"
+# 2026/01/15 21:23:31.223422 [TestProperty_CSVRoundTrip] [rapid] draw numRows: 1
+# 2026/01/15 21:23:31.223423 [TestProperty_CSVRoundTrip] [rapid] draw valueType: 0
+# 2026/01/15 21:23:31.223424 [TestProperty_CSVRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/15 21:23:31.223429 [TestProperty_CSVRoundTrip] row count mismatch: expected 1, got 0
+# 
+v0.4.8#3516635568885091530
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0

@@ -1,0 +1,20 @@
+# 2026/01/16 11:46:10.306030 [TestProperty_ExcelRoundTrip] [rapid] draw numCols: 1
+# 2026/01/16 11:46:10.306040 [TestProperty_ExcelRoundTrip] [rapid] draw header: "A"
+# 2026/01/16 11:46:10.306041 [TestProperty_ExcelRoundTrip] [rapid] draw numRows: 1
+# 2026/01/16 11:46:10.306043 [TestProperty_ExcelRoundTrip] [rapid] draw valueType: 3
+# 2026/01/16 11:46:10.307740 [TestProperty_ExcelRoundTrip] row count mismatch: expected 1, got 0
+# 
+v0.4.8#16528762805852974965
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x1
+0x0
+0x38e38e38e38e4
+0x3

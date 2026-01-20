@@ -1,0 +1,20 @@
+# 2026/01/16 12:22:58.008267 [TestProperty_MarkdownRoundTrip] [rapid] draw numCols: 1
+# 2026/01/16 12:22:58.008273 [TestProperty_MarkdownRoundTrip] [rapid] draw header: "A "
+# 2026/01/16 12:22:58.008274 [TestProperty_MarkdownRoundTrip] [rapid] draw numRows: 0
+# 2026/01/16 12:22:58.008277 [TestProperty_MarkdownRoundTrip] header 0 mismatch: expected "A ", got "A"
+# 
+v0.4.8#6003099574672973061
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x5555555555555
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0

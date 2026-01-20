@@ -1,0 +1,39 @@
+# 2026/01/20 17:46:45.978994 [TestProperty_YAMLRoundTrip] [rapid] draw numCols: 2
+# 2026/01/20 17:46:45.979000 [TestProperty_YAMLRoundTrip] [rapid] draw header: "A"
+# 2026/01/20 17:46:45.979002 [TestProperty_YAMLRoundTrip] [rapid] draw header: "B"
+# 2026/01/20 17:46:45.979002 [TestProperty_YAMLRoundTrip] [rapid] draw numRows: 1
+# 2026/01/20 17:46:45.979003 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/20 17:46:45.979004 [TestProperty_YAMLRoundTrip] [rapid] draw stringValue: ""
+# 2026/01/20 17:46:45.979004 [TestProperty_YAMLRoundTrip] [rapid] draw valueType: 0
+# 2026/01/20 17:46:45.979005 [TestProperty_YAMLRoundTrip] [rapid] draw stringValue: "0"
+# 2026/01/20 17:46:45.979026 [TestProperty_YAMLRoundTrip] row 0, col "B" value mismatch:
+# expected type=0, raw="0", parsed=0
+# got type=1, raw="0", parsed=0
+# 
+v0.4.8#4705024074125375641
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x5555555555555
+0x19
+0x0
+0x0
+0x0
