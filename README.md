@@ -40,6 +40,24 @@ go build -o morph ./cmd/morph
 go install ./cmd/morph
 ```
 
+### Cross-Compilation
+
+Build for different platforms:
+
+```bash
+# Windows (64-bit)
+GOOS=windows GOARCH=amd64 go build -o morph.exe ./cmd/morph
+
+# Linux (64-bit)
+GOOS=linux GOARCH=amd64 go build -o morph-linux ./cmd/morph
+
+# macOS (Apple Silicon)
+GOOS=darwin GOARCH=arm64 go build -o morph-darwin-arm64 ./cmd/morph
+
+# macOS (Intel)
+GOOS=darwin GOARCH=amd64 go build -o morph-darwin-amd64 ./cmd/morph
+```
+
 ### Build Requirements
 
 - Go 1.21 or later
