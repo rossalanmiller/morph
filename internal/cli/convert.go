@@ -4,8 +4,21 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/user/table-converter/internal/model"
+	"github.com/user/table-converter/internal/parser"
 	"github.com/user/table-converter/internal/registry"
+	"github.com/user/table-converter/internal/serializer"
 )
+
+// Parser interface for parsing input
+type parserInterface interface {
+	Parse(input io.Reader) (*model.TableData, error)
+}
+
+// Serializer interface for serializing output
+type serializerInterface interface {
+	Serialize(data *model.TableData, output io.Writer) error
+}
 
 // ConvertOptions holds options for the conversion process
 type ConvertOptions struct {
@@ -17,6 +30,12 @@ type ConvertOptions struct {
 	Sheet string
 	// NoHeader indicates whether to treat the first row as data
 	NoHeader bool
+	// CSVDelimiter is the CSV field delimiter
+	CSVDelimiter string
+	// CSVLineTerminator is the CSV line terminator
+	CSVLineTerminator string
+	// CSVQuoteAll forces all CSV fields to be quoted
+	CSVQuoteAll bool
 }
 
 // Convert performs the conversion from input to output using the specified formats
@@ -31,16 +50,38 @@ func Convert(input io.Reader, output io.Writer, opts ConvertOptions) error {
 		return NewCLIError("output format is required", ExitUsageError)
 	}
 
-	// Look up parser from format registry
-	p, err := registry.GetParser(registry.Format(opts.InputFormat))
-	if err != nil {
-		return FormatUnsupportedFormatError(string(opts.InputFormat)).WithErr(err)
+	// Get parser - use custom CSV parser if delimiter specified
+	var p parserInterface
+	var err error
+	if opts.InputFormat == FormatCSV && opts.CSVDelimiter != "" {
+		delim := parser.ParseDelimiter(opts.CSVDelimiter)
+		p = parser.NewCSVParserWithDelimiter(delim)
+	} else {
+		p, err = registry.GetParser(registry.Format(opts.InputFormat))
+		if err != nil {
+			return FormatUnsupportedFormatError(string(opts.InputFormat)).WithErr(err)
+		}
 	}
 
-	// Look up serializer from format registry
-	s, err := registry.GetSerializer(registry.Format(opts.OutputFormat))
-	if err != nil {
-		return FormatUnsupportedFormatError(string(opts.OutputFormat)).WithErr(err)
+	// Get serializer - use custom CSV serializer if options specified
+	var s serializerInterface
+	if opts.OutputFormat == FormatCSV && (opts.CSVDelimiter != "" || opts.CSVLineTerminator != "" || opts.CSVQuoteAll) {
+		var csvOpts []serializer.CSVSerializerOption
+		if opts.CSVDelimiter != "" {
+			csvOpts = append(csvOpts, serializer.WithDelimiter(parser.ParseDelimiter(opts.CSVDelimiter)))
+		}
+		if opts.CSVLineTerminator != "" {
+			csvOpts = append(csvOpts, serializer.WithLineTerminator(serializer.ParseLineTerminator(opts.CSVLineTerminator)))
+		}
+		if opts.CSVQuoteAll {
+			csvOpts = append(csvOpts, serializer.WithAlwaysQuote(true))
+		}
+		s = serializer.NewCSVSerializerWithOptions(csvOpts...)
+	} else {
+		s, err = registry.GetSerializer(registry.Format(opts.OutputFormat))
+		if err != nil {
+			return FormatUnsupportedFormatError(string(opts.OutputFormat)).WithErr(err)
+		}
 	}
 
 	// Parse input to TableData
@@ -61,10 +102,13 @@ func Convert(input io.Reader, output io.Writer, opts ConvertOptions) error {
 // This is a convenience wrapper around Convert that extracts options from Config
 func ConvertWithConfig(input io.Reader, output io.Writer, config *Config) error {
 	return Convert(input, output, ConvertOptions{
-		InputFormat:  config.InputFormat,
-		OutputFormat: config.OutputFormat,
-		Sheet:        config.Sheet,
-		NoHeader:     config.NoHeader,
+		InputFormat:       config.InputFormat,
+		OutputFormat:      config.OutputFormat,
+		Sheet:             config.Sheet,
+		NoHeader:          config.NoHeader,
+		CSVDelimiter:      config.CSVDelimiter,
+		CSVLineTerminator: config.CSVLineTerminator,
+		CSVQuoteAll:       config.CSVQuoteAll,
 	})
 }
 
