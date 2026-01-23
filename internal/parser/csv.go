@@ -80,7 +80,13 @@ func (p *CSVParser) Parse(input io.Reader) (*model.TableData, error) {
 		row := make([]model.Value, len(record))
 
 		for j, field := range record {
-			row[j] = model.NewValue(field)
+			// CSV is text-based, so preserve all values as strings
+			// (except empty strings which become null)
+			if field == "" {
+				row[j] = model.NewNullValue()
+			} else {
+				row[j] = model.NewStringValue(field)
+			}
 		}
 
 		rows = append(rows, row)
