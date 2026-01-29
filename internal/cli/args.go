@@ -18,15 +18,8 @@ type Config struct {
 	OutputFile   string // Output file path (empty for stdout)
 	InputFormat  Format // Input format
 	OutputFormat Format // Output format
-	Sheet        string // Excel sheet name (default: first sheet)
-	NoHeader     bool   // Treat first row as data, not headers
 	ShowHelp     bool   // Show help message
 	ShowVersion  bool   // Show version
-
-	// CSV-specific options
-	CSVDelimiter      string // CSV field delimiter (comma, tab, semicolon, pipe)
-	CSVLineTerminator string // CSV line terminator (lf, crlf)
-	CSVQuoteAll       bool   // Quote all CSV fields
 }
 
 // ParseArgs parses command-line arguments and returns a Config
@@ -46,13 +39,6 @@ func ParseArgsWithOutput(args []string, output io.Writer) (*Config, error) {
 	var inFormat, outFormat string
 	fs.StringVar(&inFormat, "in", "", "Input format (csv|excel|yaml|json|html|xml|markdown|ascii)")
 	fs.StringVar(&outFormat, "out", "", "Output format (csv|excel|yaml|json|html|xml|markdown|ascii)")
-	fs.StringVar(&config.Sheet, "sheet", "", "Excel sheet name (default: first sheet)")
-	fs.BoolVar(&config.NoHeader, "no-header", false, "Treat first row as data, not headers")
-
-	// CSV-specific flags
-	fs.StringVar(&config.CSVDelimiter, "csv-delimiter", "", "CSV field delimiter: comma, tab, semicolon, pipe (default: auto-detect input, comma output)")
-	fs.StringVar(&config.CSVLineTerminator, "csv-line", "", "CSV line terminator: lf, crlf (default: lf)")
-	fs.BoolVar(&config.CSVQuoteAll, "csv-quote-all", false, "Quote all CSV fields")
 
 	// Custom help and version flags
 	var showHelp, showVersion bool
@@ -154,11 +140,6 @@ func validateConfig(config *Config) error {
 		return errors.New("output format required when writing to stdout (use -out flag)")
 	}
 
-	// Sheet option only valid for Excel format
-	if config.Sheet != "" && config.InputFormat != FormatExcel {
-		return errors.New("--sheet option is only valid for Excel input format")
-	}
-
 	return nil
 }
 
@@ -172,23 +153,13 @@ Usage:
 Options:
   -in <format>      Input format (csv|excel|yaml|json|html|xml|markdown|ascii)
   -out <format>     Output format (csv|excel|yaml|json|html|xml|markdown|ascii)
-  --sheet <name>    Excel sheet name (default: first sheet)
-  --no-header       Treat first row as data, not headers
   -h, --help        Show help message
   -v, --version     Show version
 
-CSV Options:
-  --csv-delimiter <d>   Field delimiter: comma, tab, semicolon, pipe (default: auto-detect)
-  --csv-line <term>     Line terminator: lf, crlf (default: lf)
-  --csv-quote-all       Quote all fields in output
-
 Examples:
-  morph data.csv output.xlsx
+  morph data.csv output.json
   morph -in json -out yaml < input.json > output.yaml
   echo '[{"a":1}]' | morph -in json -out csv
-  morph --sheet "Sheet2" data.xlsx output.csv
-  morph --csv-delimiter tab data.tsv output.json
-  morph -in json -out csv --csv-quote-all data.json output.csv
 
 Supported formats:
   csv       - Comma-separated values
