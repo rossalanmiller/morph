@@ -14,8 +14,6 @@ func TestParseArgs_ValidFlagCombinations(t *testing.T) {
 		wantOutputFile string
 		wantInFormat   Format
 		wantOutFormat  Format
-		wantSheet      string
-		wantNoHeader   bool
 	}{
 		{
 			name:           "file to file with auto-detection",
@@ -47,78 +45,60 @@ func TestParseArgs_ValidFlagCombinations(t *testing.T) {
 			wantOutFormat:  FormatYAML,
 		},
 		{
-			name:          "stdin to file output using dash",
-			args:          []string{"-in", "json", "-", "output.xlsx"},
-			wantInputFile: "-",
+			name:           "stdin to file output using dash",
+			args:           []string{"-in", "json", "-", "output.xlsx"},
+			wantInputFile:  "-",
 			wantOutputFile: "output.xlsx",
 			wantInFormat:   FormatJSON,
 			wantOutFormat:  FormatExcel,
 		},
 		{
-			name:           "with sheet option",
-			args:           []string{"--sheet", "Sheet2", "input.xlsx", "output.csv"},
-			wantInputFile:  "input.xlsx",
-			wantOutputFile: "output.csv",
-			wantInFormat:   FormatExcel,
-			wantOutFormat:  FormatCSV,
-			wantSheet:      "Sheet2",
+			name:         "all formats - csv",
+			args:         []string{"-in", "csv", "-out", "csv"},
+			wantInFormat: FormatCSV,
+			wantOutFormat: FormatCSV,
 		},
 		{
-			name:           "with no-header option",
-			args:           []string{"--no-header", "input.csv", "output.json"},
-			wantInputFile:  "input.csv",
-			wantOutputFile: "output.json",
-			wantInFormat:   FormatCSV,
-			wantOutFormat:  FormatJSON,
-			wantNoHeader:   true,
+			name:         "all formats - excel",
+			args:         []string{"-in", "excel", "-out", "excel"},
+			wantInFormat: FormatExcel,
+			wantOutFormat: FormatExcel,
 		},
 		{
-			name:           "all formats - csv",
-			args:           []string{"-in", "csv", "-out", "csv"},
-			wantInFormat:   FormatCSV,
-			wantOutFormat:  FormatCSV,
+			name:         "all formats - yaml",
+			args:         []string{"-in", "yaml", "-out", "yaml"},
+			wantInFormat: FormatYAML,
+			wantOutFormat: FormatYAML,
 		},
 		{
-			name:           "all formats - excel",
-			args:           []string{"-in", "excel", "-out", "excel"},
-			wantInFormat:   FormatExcel,
-			wantOutFormat:  FormatExcel,
+			name:         "all formats - json",
+			args:         []string{"-in", "json", "-out", "json"},
+			wantInFormat: FormatJSON,
+			wantOutFormat: FormatJSON,
 		},
 		{
-			name:           "all formats - yaml",
-			args:           []string{"-in", "yaml", "-out", "yaml"},
-			wantInFormat:   FormatYAML,
-			wantOutFormat:  FormatYAML,
+			name:         "all formats - html",
+			args:         []string{"-in", "html", "-out", "html"},
+			wantInFormat: FormatHTML,
+			wantOutFormat: FormatHTML,
 		},
 		{
-			name:           "all formats - json",
-			args:           []string{"-in", "json", "-out", "json"},
-			wantInFormat:   FormatJSON,
-			wantOutFormat:  FormatJSON,
+			name:         "all formats - xml",
+			args:         []string{"-in", "xml", "-out", "xml"},
+			wantInFormat: FormatXML,
+			wantOutFormat: FormatXML,
 		},
 		{
-			name:           "all formats - html",
-			args:           []string{"-in", "html", "-out", "html"},
-			wantInFormat:   FormatHTML,
-			wantOutFormat:  FormatHTML,
+			name:         "all formats - markdown",
+			args:         []string{"-in", "markdown", "-out", "markdown"},
+			wantInFormat: FormatMarkdown,
+			wantOutFormat: FormatMarkdown,
 		},
 		{
-			name:           "all formats - xml",
-			args:           []string{"-in", "xml", "-out", "xml"},
-			wantInFormat:   FormatXML,
-			wantOutFormat:  FormatXML,
-		},
-		{
-			name:           "all formats - markdown",
-			args:           []string{"-in", "markdown", "-out", "markdown"},
-			wantInFormat:   FormatMarkdown,
-			wantOutFormat:  FormatMarkdown,
-		},
-		{
-			name:           "all formats - ascii",
-			args:           []string{"-in", "ascii", "-out", "ascii"},
-			wantInFormat:   FormatASCII,
-			wantOutFormat:  FormatASCII,
+			name:         "all formats - ascii",
+			args:         []string{"-in", "ascii", "-out", "ascii"},
+			wantInFormat: FormatASCII,
+			wantOutFormat: FormatASCII,
 		},
 	}
 
@@ -140,12 +120,6 @@ func TestParseArgs_ValidFlagCombinations(t *testing.T) {
 			}
 			if config.OutputFormat != tt.wantOutFormat {
 				t.Errorf("OutputFormat = %q, want %q", config.OutputFormat, tt.wantOutFormat)
-			}
-			if config.Sheet != tt.wantSheet {
-				t.Errorf("Sheet = %q, want %q", config.Sheet, tt.wantSheet)
-			}
-			if config.NoHeader != tt.wantNoHeader {
-				t.Errorf("NoHeader = %v, want %v", config.NoHeader, tt.wantNoHeader)
 			}
 		})
 	}
@@ -187,11 +161,7 @@ func TestParseArgs_InvalidFlagCombinations(t *testing.T) {
 			args:       []string{"input.csv", "output.xyz"},
 			wantErrMsg: "cannot determine output format",
 		},
-		{
-			name:       "sheet option with non-excel format",
-			args:       []string{"--sheet", "Sheet1", "input.csv", "output.json"},
-			wantErrMsg: "--sheet option is only valid for Excel",
-		},
+
 		{
 			name:       "too many positional arguments",
 			args:       []string{"input.csv", "output.json", "extra.txt"},
@@ -268,8 +238,6 @@ func TestPrintHelp(t *testing.T) {
 		"Usage:",
 		"-in",
 		"-out",
-		"--sheet",
-		"--no-header",
 		"-h, --help",
 		"-v, --version",
 		"csv",
