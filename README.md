@@ -78,8 +78,6 @@ morph [OPTIONS] [INPUT_FILE] [OUTPUT_FILE]
 | `-out <format>`| Output format (csv, excel, yaml, json, html, xml, markdown, ascii) |
 | `-h`, `--help` | Show help message                                |
 | `-v`, `--version` | Show version                                  |
-| `--sheet <name>` | Excel sheet name (default: first sheet)       |
-| `--no-header`  | Treat first row as data, not headers             |
 
 ### Format Aliases
 
@@ -141,8 +139,8 @@ curl -s https://api.example.com/data | morph -in json -out csv > data.csv
 # Convert Excel to CSV
 morph report.xlsx report.csv
 
-# Specify a sheet name
-morph --sheet "Sales Data" report.xlsx sales.csv
+# Convert CSV to Excel
+morph data.csv output.xlsx
 ```
 
 ### Format Examples
@@ -236,7 +234,7 @@ Error: Failed to parse JSON input
 ## Known Limitations
 
 - **Duplicate Column Names**: When converting from formats that allow duplicate column names (CSV, Excel, HTML) to map-based formats (JSON, YAML), only the last value for each duplicate column name is preserved.
-- **Excel**: Only the first sheet is processed by default. Use `--sheet` to specify a different sheet.
+- **Excel**: Only the first sheet is processed.
 - **Large Files**: Files over 100MB may take longer to process. Consider using streaming-friendly formats like CSV for very large datasets.
 
 ## Development
