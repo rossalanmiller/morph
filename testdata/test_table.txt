@@ -1,7 +1,0 @@
-cspProductName |  dbProduct  | financeCode
----------------+-------------+-------------
-ae             | ae          | au
-camsi          | amsi        | am
-dbi            | bi          | bs
-abirst         | birst       | bbi
-birstapp       | birst       | bbi

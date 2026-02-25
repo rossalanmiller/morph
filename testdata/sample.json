@@ -1,11 +1,17 @@
 [
-  {"name": "Alice", "age": 30, "city": "New York", "active": true},
-  {"name": "Bob", "age": 25, "city": "Los Angeles", "active": false},
-  {"name": "Charlie", "age": 35, "city": "Chicago", "active": true},
-  {"name": "Diana", "age": 28, "city": "Houston", "active": false},
-  {"name": "Eve", "age": 32, "city": "Phoenix", "active": true, "notes": null}
+  {
+    "name": "Alice",
+    "age": 30,
+    "city": "Boston"
+  },
+  {
+    "name": "Bob",
+    "age": 25,
+    "city": "London"
+  },
+  {
+    "name": "Carol",
+    "age": 35,
+    "city": "Tokyo"
+  }
 ]
-
-
-
-
