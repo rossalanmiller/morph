@@ -18,6 +18,7 @@ type Config struct {
 	OutputFile   string // Output file path (empty for stdout)
 	InputFormat  Format // Input format
 	OutputFormat Format // Output format
+	FormatStyle  string // Format style variant (e.g., "md", "psql", "box" for ASCII)
 	ShowHelp     bool   // Show help message
 	ShowVersion  bool   // Show version
 }
@@ -36,9 +37,10 @@ func ParseArgsWithOutput(args []string, output io.Writer) (*Config, error) {
 	config := &Config{}
 
 	// Define flags
-	var inFormat, outFormat string
+	var inFormat, outFormat, formatStyle string
 	fs.StringVar(&inFormat, "in", "", "Input format (csv|excel|yaml|json|html|xml|markdown|ascii)")
 	fs.StringVar(&outFormat, "out", "", "Output format (csv|excel|yaml|json|html|xml|markdown|ascii)")
+	fs.StringVar(&formatStyle, "f", "", "Format style variant (for ascii: md|psql|box|org|rst-grid|rst-simple)")
 
 	// Custom help and version flags
 	var showHelp, showVersion bool
@@ -63,6 +65,7 @@ func ParseArgsWithOutput(args []string, output io.Writer) (*Config, error) {
 
 	config.ShowHelp = showHelp
 	config.ShowVersion = showVersion
+	config.FormatStyle = formatStyle
 
 	// If help or version requested, return early
 	if config.ShowHelp || config.ShowVersion {
@@ -153,11 +156,20 @@ Usage:
 Options:
   -in <format>      Input format (csv|excel|yaml|json|html|xml|markdown|ascii)
   -out <format>     Output format (csv|excel|yaml|json|html|xml|markdown|ascii)
+  -f <style>        Format style variant (for ascii output)
+                      md         - Markdown table style
+                      psql       - PostgreSQL aligned format
+                      box        - Traditional ASCII box (default)
+                      org        - Emacs org-mode style
+                      rst-grid   - reStructuredText grid table
+                      rst-simple - reStructuredText simple table
   -h, --help        Show help message
   -v, --version     Show version
 
 Examples:
   morph data.csv output.json
+  morph data.csv -out ascii -f md
+  morph data.psql -out ascii -f rst-grid
   morph -in json -out yaml < input.json > output.yaml
   echo '[{"a":1}]' | morph -in json -out csv
 
@@ -169,7 +181,8 @@ Supported formats:
   html      - HTML table                     [aliases: htm]
   xml       - XML dataset
   markdown  - GitHub-flavored markdown table [aliases: md]
-  ascii     - ASCII box-drawing table        [aliases: txt, table]
+  ascii     - ASCII table (auto-detects md, psql, box, org, rst formats)
+                                             [aliases: txt, table]
 `
 	fmt.Fprint(w, usage)
 }

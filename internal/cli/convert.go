@@ -13,6 +13,8 @@ type ConvertOptions struct {
 	InputFormat Format
 	// OutputFormat is the format of the output data
 	OutputFormat Format
+	// FormatStyle is the style variant for formats that support it (e.g., ASCII)
+	FormatStyle string
 }
 
 // Convert performs the conversion from input to output using the specified formats
@@ -39,6 +41,15 @@ func Convert(input io.Reader, output io.Writer, opts ConvertOptions) error {
 		return FormatUnsupportedFormatError(string(opts.OutputFormat)).WithErr(err)
 	}
 
+	// If format style is specified and serializer supports it, configure it
+	if opts.FormatStyle != "" {
+		if configurable, ok := s.(interface{ SetStyle(string) error }); ok {
+			if err := configurable.SetStyle(opts.FormatStyle); err != nil {
+				return NewCLIError(fmt.Sprintf("invalid format style: %v", err), ExitUsageError)
+			}
+		}
+	}
+
 	// Parse input to TableData
 	tableData, err := p.Parse(input)
 	if err != nil {
@@ -59,6 +70,7 @@ func ConvertWithConfig(input io.Reader, output io.Writer, config *Config) error 
 	return Convert(input, output, ConvertOptions{
 		InputFormat:  config.InputFormat,
 		OutputFormat: config.OutputFormat,
+		FormatStyle:  config.FormatStyle,
 	})
 }
 

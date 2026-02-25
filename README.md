@@ -22,7 +22,7 @@ A command-line utility that converts structured tabular data between multiple fo
 | HTML     | `.html`, `.htm` | HTML table element                   |
 | XML      | `.xml`          | Dataset/record structure             |
 | Markdown | `.md`           | GitHub-flavored markdown table       |
-| ASCII    | `.txt`          | Box-drawing ASCII table              |
+| ASCII    | `.txt`          | ASCII tables (auto-detects: box, psql, markdown, org-mode, rst) |
 
 ## Installation
 
@@ -76,6 +76,7 @@ morph [OPTIONS] [INPUT_FILE] [OUTPUT_FILE]
 |----------------|--------------------------------------------------|
 | `-in <format>` | Input format (csv, excel, yaml, json, html, xml, markdown, ascii) |
 | `-out <format>`| Output format (csv, excel, yaml, json, html, xml, markdown, ascii) |
+| `-f <style>`   | ASCII table style (md, psql, box, org, rst-grid, rst-simple) |
 | `-h`, `--help` | Show help message                                |
 | `-v`, `--version` | Show version                                  |
 
@@ -131,6 +132,44 @@ morph -out yaml data.csv
 
 # Full pipeline
 curl -s https://api.example.com/data | morph -in json -out csv > data.csv
+```
+
+#### ASCII Table Styles
+
+The ASCII format supports multiple visual styles via the `-f` flag:
+
+```bash
+# Markdown style
+morph data.csv -out ascii -f md
+
+# PostgreSQL psql style
+morph data.csv -out ascii -f psql
+
+# Traditional box style (default)
+morph data.csv -out ascii -f box
+
+# Emacs org-mode style
+morph data.csv -out ascii -f org
+
+# reStructuredText grid style
+morph data.csv -out ascii -f rst-grid
+
+# reStructuredText simple style
+morph data.csv -out ascii -f rst-simple
+```
+
+#### Converting PostgreSQL Query Results
+
+```bash
+# Copy psql output and convert to JSON
+psql -d mydb -c "SELECT * FROM users" | morph -in ascii -out json > users.json
+
+# Convert psql output to CSV
+psql -d mydb -c "SELECT * FROM products" | morph -in ascii -out csv > products.csv
+
+# Or save psql output to a file first
+psql -d mydb -c "SELECT * FROM orders" > orders.txt
+morph orders.txt orders.xlsx
 ```
 
 #### Working with Excel
@@ -201,6 +240,10 @@ Bob,25,false
 ```
 
 #### ASCII
+
+The ASCII format auto-detects and supports multiple table styles:
+
+**Traditional Box (default):**
 ```
 +-------+-----+--------+
 | name  | age | active |
@@ -209,6 +252,52 @@ Bob,25,false
 | Bob   | 25  | false  |
 +-------+-----+--------+
 ```
+
+**PostgreSQL psql format:**
+```
+name  | age | active
+------+-----+--------
+Alice | 30  | true
+Bob   | 25  | false
+```
+
+**Markdown:**
+```
+| name  | age | active |
+|-------|-----|--------|
+| Alice | 30  | true   |
+| Bob   | 25  | false  |
+```
+
+**Emacs org-mode:**
+```
+| name  | age | active |
+|-------+-----+--------|
+| Alice | 30  | true   |
+| Bob   | 25  | false  |
+```
+
+**reStructuredText Grid:**
+```
++-------+-----+--------+
+| name  | age | active |
++=======+=====+========+
+| Alice | 30  | true   |
+| Bob   | 25  | false  |
++-------+-----+--------+
+```
+
+**reStructuredText Simple:**
+```
+=====  ===  ======
+name   age  active
+=====  ===  ======
+Alice  30   true
+Bob    25   false
+=====  ===  ======
+```
+
+The parser automatically detects which format is being used. Use the `-f` flag to specify the output style.
 
 ## Error Handling
 

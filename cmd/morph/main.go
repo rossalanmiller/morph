@@ -33,11 +33,11 @@ func registerFormats() {
 	// XML format
 	registry.Register(registry.FormatXML, parser.NewXMLParser(), serializer.NewXMLSerializer())
 
-	// Markdown format
-	registry.Register(registry.FormatMarkdown, parser.NewMarkdownParser(), serializer.NewMarkdownSerializer())
+	// ASCII format (handles all text table formats: box, psql, markdown, org-mode, rst)
+	registry.Register(registry.FormatASCII, parser.NewUnifiedASCIIParser(), serializer.NewUnifiedASCIISerializer("box"))
 
-	// ASCII format
-	registry.Register(registry.FormatASCII, parser.NewASCIIParser(), serializer.NewASCIISerializer())
+	// Markdown format (alias for ASCII with markdown style)
+	registry.Register(registry.FormatMarkdown, parser.NewUnifiedASCIIParser(), serializer.NewUnifiedASCIISerializer("md"))
 }
 
 func main() {
