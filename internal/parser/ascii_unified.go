@@ -183,13 +183,17 @@ func (p *UnifiedASCIIParser) isSeparatorLine(line string) bool {
 
 // parsePipeBased parses pipe-based table formats (box, psql, markdown, org, rst-grid)
 func (p *UnifiedASCIIParser) parsePipeBased(lines []string, style TableStyle) (*model.TableData, error) {
-	// Find column boundaries
-	colBoundaries := p.findColumnBoundaries(lines, style)
-	if len(colBoundaries) < 2 {
-		return nil, NewParseError("invalid table: cannot detect column boundaries")
+	if style == StylePsql {
+		// psql uses fixed-position parsing based on + separator positions
+		colBoundaries := p.findColumnBoundaries(lines, style)
+		if len(colBoundaries) < 2 {
+			return nil, NewParseError("invalid table: cannot detect column boundaries")
+		}
+		return p.parsePipeBasedFixed(lines, colBoundaries, style)
 	}
 
-	// Parse data rows (skip separator lines)
+	// For all other pipe-based formats (box, markdown, org, rst-grid),
+	// split each row by | delimiter - this handles variable-width content correctly
 	var headers []string
 	var rows [][]model.Value
 	headerFound := false
@@ -198,9 +202,65 @@ func (p *UnifiedASCIIParser) parsePipeBased(lines []string, style TableStyle) (*
 		if p.isSeparatorLine(line) {
 			continue
 		}
+		cells := p.splitByPipe(line)
+		if len(cells) == 0 {
+			continue
+		}
+		if !headerFound {
+			headers = cells
+			headerFound = true
+		} else {
+			// Pad or trim to match header count
+			values := make([]model.Value, len(headers))
+			for i := range headers {
+				if i < len(cells) {
+					values[i] = model.NewValue(cells[i])
+				} else {
+					values[i] = model.NewValue("")
+				}
+			}
+			rows = append(rows, values)
+		}
+	}
 
+	if len(headers) == 0 {
+		return model.NewTableData([]string{}, [][]model.Value{}), nil
+	}
+
+	return model.NewTableData(headers, rows), nil
+}
+
+// splitByPipe splits a pipe-delimited row into trimmed cell values
+func (p *UnifiedASCIIParser) splitByPipe(line string) []string {
+	line = strings.TrimSpace(line)
+
+	// Remove leading and trailing pipes
+	if strings.HasPrefix(line, "|") {
+		line = line[1:]
+	}
+	if strings.HasSuffix(line, "|") {
+		line = line[:len(line)-1]
+	}
+
+	parts := strings.Split(line, "|")
+	cells := make([]string, len(parts))
+	for i, p := range parts {
+		cells[i] = strings.TrimSpace(p)
+	}
+	return cells
+}
+
+// parsePipeBasedFixed parses using fixed column positions (used for psql format)
+func (p *UnifiedASCIIParser) parsePipeBasedFixed(lines []string, colBoundaries []int, style TableStyle) (*model.TableData, error) {
+	var headers []string
+	var rows [][]model.Value
+	headerFound := false
+
+	for _, line := range lines {
+		if p.isSeparatorLine(line) {
+			continue
+		}
 		cells := p.parseDataRow(line, colBoundaries, style)
-
 		if !headerFound {
 			headers = cells
 			headerFound = true

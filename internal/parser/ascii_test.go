@@ -8,7 +8,6 @@ import (
 )
 
 // TestASCIIParser_PsqlFormat tests parsing of PostgreSQL psql aligned format
-// This format uses | for column separators in data rows and + for separator lines
 func TestASCIIParser_PsqlFormat(t *testing.T) {
 	input := `cspProductName |  dbProduct  | financeCode
 ---------------+-------------+-------------
@@ -16,7 +15,7 @@ ae             | ae          | au
 camsi          | amsi        | am
 dbi            | bi          | bs`
 
-	parser := NewASCIIParser()
+	parser := NewUnifiedASCIIParser()
 	td, err := parser.Parse(strings.NewReader(input))
 	if err != nil {
 		t.Fatalf("failed to parse psql format: %v", err)
@@ -56,7 +55,6 @@ dbi            | bi          | bs`
 }
 
 // TestASCIIParser_TraditionalBoxFormat tests parsing of traditional box-drawing format
-// This format uses | for all column separators and + for corners
 func TestASCIIParser_TraditionalBoxFormat(t *testing.T) {
 	input := `+-------+-----+--------+
 | name  | age | active |
@@ -65,7 +63,7 @@ func TestASCIIParser_TraditionalBoxFormat(t *testing.T) {
 | Bob   | 25  | false  |
 +-------+-----+--------+`
 
-	parser := NewASCIIParser()
+	parser := NewUnifiedASCIIParser()
 	td, err := parser.Parse(strings.NewReader(input))
 	if err != nil {
 		t.Fatalf("failed to parse box format: %v", err)
@@ -103,7 +101,7 @@ func TestASCIIParser_TraditionalBoxFormat(t *testing.T) {
 func TestASCIIParser_EmptyTable(t *testing.T) {
 	input := ``
 
-	parser := NewASCIIParser()
+	parser := NewUnifiedASCIIParser()
 	td, err := parser.Parse(strings.NewReader(input))
 	if err != nil {
 		t.Fatalf("failed to parse empty table: %v", err)
