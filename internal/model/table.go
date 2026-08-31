@@ -36,16 +36,17 @@ func NewValue(raw string) Value {
 
 	trimmed := strings.TrimSpace(raw)
 	
-	// Try parsing as boolean
+	// Try parsing as boolean (strict: only "true"/"false", not "0"/"1"/"yes"/"no"
+	// to avoid corrupting numeric data that happens to be 0 or 1)
 	lower := strings.ToLower(trimmed)
-	if lower == "true" || lower == "yes" || lower == "1" {
+	if lower == "true" {
 		return Value{
 			Type:   TypeBoolean,
 			Raw:    raw,
 			Parsed: true,
 		}
 	}
-	if lower == "false" || lower == "no" || lower == "0" {
+	if lower == "false" {
 		return Value{
 			Type:   TypeBoolean,
 			Raw:    raw,

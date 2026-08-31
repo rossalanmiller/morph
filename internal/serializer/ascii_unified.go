@@ -409,12 +409,7 @@ func unifiedValueToString(val model.Value) string {
 	case model.TypeNull:
 		return ""
 	case model.TypeBoolean:
-		if b, ok := val.Parsed.(bool); ok {
-			if b {
-				return "true"
-			}
-			return "false"
-		}
+		// Preserve original casing (e.g. "TRUE", "False") from source
 		return val.Raw
 	case model.TypeNumber:
 		return val.Raw
